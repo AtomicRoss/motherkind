@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        // Redirect to the target URL and scroll to the element
+        // Redirect to the target URL with a delay
         window.onload = function() {
-            window.location.href = "https://www.boxifyapp.com#ContentForJavascript";
+            setTimeout(function() {
+                window.location.href = "https://www.boxifyapp.com#ContentForJavascript";
+            }, 1000); // Delay of 1000 milliseconds (1 second)
         };
     </script>
 </head>
@@ -15,3 +17,4 @@
     <p>Redirecting to the target page...</p>
 </body>
 </html>
+
